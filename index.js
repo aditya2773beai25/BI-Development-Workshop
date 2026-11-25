@@ -2,12 +2,12 @@ const users = [
   {
     name: "John Doe",
     gender: "Male",
-    avatar: "john-doe.png"
+    avatar: "john.png"
   },
   {
     name: "Jane Doe",
     gender: "Female",
-    avatar: "jane-doe.png"
+    avatar: "jane.png"
   }
 ];
 
