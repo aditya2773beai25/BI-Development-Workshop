@@ -37,7 +37,7 @@ function randomUser() {
     .then((data) => {
       const person = data.results[0];
       const fullName = `${person.name.first} ${person.name.last}`;
-      const gender = person.gender.charAt(0).toUpperCase() + person.gender.slice(1);
+      const gender = person.gender;
 
       document.getElementById("user-name").textContent = fullName;
       document.getElementById("user-gender").textContent = gender;
